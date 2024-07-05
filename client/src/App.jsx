@@ -25,6 +25,9 @@ import Admin from "./scenes/Admin";
 import Performance from "./scenes/Performance";
 import ZohoAppRoleDetails from "./scenes/ZohoAppRoleDetails";
 import Employees from "./scenes/EmpDetails";
+import MetaAppRoleDetails from "./scenes/MetaAppRoleDetails";
+import ZomatoAppRoleDetails from "./scenes/ZomatoAppRoleDetails";
+import SwiggyAppRoleDetails from "./scenes/SwiggyAppRoleDetails";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -33,7 +36,10 @@ const router = createBrowserRouter(
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/products" element={<Products />} />
       <Route path="/customers" element={<Customers />} />
-      <Route path="/zohoapproledetails" element={<ZohoAppRoleDetails/>} />
+      <Route path="/zoho" element={<ZohoAppRoleDetails/>} />
+      <Route path="/swiggy" element={<SwiggyAppRoleDetails/>} />
+      <Route path="/zomato" element={<ZomatoAppRoleDetails/>} />
+      <Route path="/meta" element={<MetaAppRoleDetails/>} />
       <Route path="/empdetails" element={<Employees/>} />
       <Route path="/transactions" element={<Transactions />} />
       <Route path="/geography" element={<Geography />} />

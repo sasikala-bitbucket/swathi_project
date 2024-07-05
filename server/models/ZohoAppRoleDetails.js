@@ -2,6 +2,7 @@ import mongoose from "mongoose";
 
 // Define the schema
 const ZohoAppRoleDetailsSchema = new mongoose.Schema({
+    application: { type: String },
     country: { type: String },
     language: { type: String },
     microsoft: { type: Boolean },

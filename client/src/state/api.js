@@ -14,6 +14,9 @@ export const api = createApi({
     "UserPerformance",
     "Dashboard",
     "ZohoAppRoleDetails",
+    "ZomatoAppRoleDetails",
+    "SwiggyAppRoleDetails",
+    "MetaAppRoleDetails",
     "EmpDetails",
   ],
   endpoints: (builder) => ({
@@ -30,8 +33,20 @@ export const api = createApi({
       providesTags: ["Customers"],
     }),
     getZohoAppRoleDetails: builder.query({
-      query: () => `client/zohoapproledetails`,
+      query: () => `client/zoho`,
       providesTags: ["ZohoAppRoleDetails"],
+    }),
+    getZomatoAppRoleDetails: builder.query({
+      query: () => `client/zomato`,
+      providesTags: ["ZomatoAppRoleDetails"],
+    }),
+    getSwiggyAppRoleDetails: builder.query({
+      query: () => `client/swiggy`,
+      providesTags: ["SwiggyAppRoleDetails"],
+    }),
+    getMetaAppRoleDetails: builder.query({
+      query: () => `client/meta`,
+      providesTags: ["MetaAppRoleDetails"],
     }),
     getEmpDetails: builder.query({
       query: () => `client/empdetails`,
@@ -84,5 +99,8 @@ export const {
   useGetUserPerformanceQuery,
   useGetDashboardQuery,
   useGetZohoAppRoleDetailsQuery,
+  useGetZomatoAppRoleDetailsQuery,
+  useGetMetaAppRoleDetailsQuery,
+  useGetSwiggyAppRoleDetailsQuery,
   useGetEmpDetailsQuery,
 } = api;

@@ -1,8 +1,13 @@
 /* eslint-disable react/prop-types */
 import { Box, Typography, useTheme } from "@mui/material";
 import FlexBetween from "./FlexBetween";
+import { useNavigate } from 'react-router-dom';
 
 function StatBox({ title, value, increase, icon, description }) {
+  const navigate = useNavigate();
+  const onClick = () => {
+    navigate(`/${value}`);
+  };
   const theme = useTheme();
   return (
     <Box
@@ -15,6 +20,7 @@ function StatBox({ title, value, increase, icon, description }) {
       flex="1 1 100%"
       backgroundColor={theme.palette.background.alt}
       borderRadius="0.55rem"
+      onClick={() => onClick && onClick(value)}
     >
       <FlexBetween>
         <Typography variant="h6" sx={{ color: theme.palette.secondary[100] }}>
@@ -38,7 +44,7 @@ function StatBox({ title, value, increase, icon, description }) {
         >
           {increase}
         </Typography>
-        <Typography>{description}</Typography>
+        <Typography variant="h5">{description}</Typography>
       </FlexBetween>
     </Box>
   );

@@ -39,19 +39,31 @@ const navItems = [
     icon: <HomeOutlined />,
   },
   {
-    text: "Client Facing",
+    text: "Applications",
     icon: null,
   },
+  // {
+  //   text: "Products",
+  //   icon: <ShoppingCartOutlined />,
+  // },
+  // {
+  //   text: "Customers",
+  //   icon: <Groups2Outlined />,
+  // },
   {
-    text: "Products",
-    icon: <ShoppingCartOutlined />,
-  },
-  {
-    text: "Customers",
+    text: "Zoho",
     icon: <Groups2Outlined />,
   },
   {
-    text: "ZohoAppRoleDetails",
+    text: "Swiggy",
+    icon: <Groups2Outlined />,
+  },
+  {
+    text: "Zomato",
+    icon: <Groups2Outlined />,
+  },
+  {
+    text: "Meta",
     icon: <Groups2Outlined />,
   },
   {
@@ -59,46 +71,46 @@ const navItems = [
     icon: <Groups2Outlined />,
   },
 
-  {
-    text: "Transactions",
-    icon: <ReceiptLongOutlined />,
-  },
-  {
-    text: "Geography",
-    icon: <PublicOutlined />,
-  },
-  {
-    text: "Sales",
-    icon: null,
-  },
-  {
-    text: "Overview",
-    icon: <PointOfSaleOutlined />,
-  },
-  {
-    text: "Daily",
-    icon: <TodayOutlined />,
-  },
-  {
-    text: "Monthly",
-    icon: <CalendarMonthOutlined />,
-  },
-  {
-    text: "Breakdown",
-    icon: <PieChartOutlined />,
-  },
-  {
-    text: "Management",
-    icon: null,
-  },
-  {
-    text: "Admin",
-    icon: <AdminPanelSettingsOutlined />,
-  },
-  {
-    text: "Performance",
-    icon: <TrendingUpOutlined />,
-  },
+  // {
+  //   text: "Transactions",
+  //   icon: <ReceiptLongOutlined />,
+  // },
+  // {
+  //   text: "Geography",
+  //   icon: <PublicOutlined />,
+  // },
+  // {
+  //   text: "Sales",
+  //   icon: null,
+  // },
+  // {
+  //   text: "Overview",
+  //   icon: <PointOfSaleOutlined />,
+  // },
+  // {
+  //   text: "Daily",
+  //   icon: <TodayOutlined />,
+  // },
+  // {
+  //   text: "Monthly",
+  //   icon: <CalendarMonthOutlined />,
+  // },
+  // {
+  //   text: "Breakdown",
+  //   icon: <PieChartOutlined />,
+  // },
+  // {
+  //   text: "Management",
+  //   icon: null,
+  // },
+  // {
+  //   text: "Admin",
+  //   icon: <AdminPanelSettingsOutlined />,
+  // },
+  // {
+  //   text: "Performance",
+  //   icon: <TrendingUpOutlined />,
+  // },
 ];
 
 function Sidebar({

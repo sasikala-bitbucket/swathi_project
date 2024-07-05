@@ -1,11 +1,11 @@
 import Header from "@/components/Header";
-import { useGetZohoAppRoleDetailsQuery } from "@/state/api";
+import { useGetZomatoAppRoleDetailsQuery } from "@/state/api";
 import { Box, useTheme } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
 
-function ZohoAppRoleDetails() {
+function ZomatoAppRoleDetails() {
   const theme = useTheme();
-  const { data, isLoading } = useGetZohoAppRoleDetailsQuery();
+  const { data, isLoading } = useGetZomatoAppRoleDetailsQuery();
 
   const columns = [
     {
@@ -37,7 +37,7 @@ function ZohoAppRoleDetails() {
 
   return (
     <Box height="100%" maxHeight="90vh" p="1.5rem 2.5rem">
-      <Header title="Zoho Details" subtitle="List of Users" />
+      <Header title="Zomato Details" subtitle="List of Users" />
       <Box
         mt="40px"
         height="72vh"
@@ -77,4 +77,4 @@ function ZohoAppRoleDetails() {
   );
 }
 
-export default ZohoAppRoleDetails;
+export default ZomatoAppRoleDetails;

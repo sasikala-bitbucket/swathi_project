@@ -77,9 +77,40 @@ export const getCustomers = async (req, res) => {
 
 export const getZohoAppRoleDetails = async (req, res) => {
   try {
-    const zprDetails = await ZohoAppRoleDetails.find({});
-    console.log(zprDetails);
+    const zprDetails = await ZohoAppRoleDetails.find({ application: "Zoho" });
+    
+    res.status(200).json(zprDetails);
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: error.message });
+  }
+};
 
+export const getZomatoAppRoleDetails = async (req, res) => {
+  try {
+    const zprDetails = await ZohoAppRoleDetails.find({ application: "Zomato" });
+    
+    res.status(200).json(zprDetails);
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: error.message });
+  }
+};
+
+export const getSwiggyAppRoleDetails = async (req, res) => {
+  try {
+    const zprDetails = await ZohoAppRoleDetails.find({ application:"Swiggy" });
+        res.status(200).json(zprDetails);
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: error.message });
+  }
+};
+
+export const getMetaAppRoleDetails = async (req, res) => {
+  try {
+    const zprDetails = await ZohoAppRoleDetails.find({ application: "Meta" });
+   
     res.status(200).json(zprDetails);
   } catch (error) {
     console.log(error);
