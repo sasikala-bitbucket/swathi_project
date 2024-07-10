@@ -20,6 +20,26 @@ export const api = createApi({
     "EmpDetails",
   ],
   endpoints: (builder) => ({
+    getUserProvisioningData: builder.query({
+      query: () => `client/userprovisioning`,
+      providesTags: ["UserProvisioningData"],
+    }),
+    getLifecycleData: builder.query({
+      query: () => `client/lifecyclemanagement`,
+      providesTags: ["LifecycleData"],
+    }),
+    getEntitlementData: builder.query({
+      query: () => `client/entitlementmanagement`,
+      providesTags: ["EntitlementData"],
+    }),
+    getAccessCertification: builder.query({
+      query: () => `client/accesscertification`,
+      providesTags: ["AccessCerification"],
+    }),
+    getAccessReview: builder.query({
+      query: () => `client/accessreview`,
+      providesTags: ["AccessReview"],
+    }),
     getUserById: builder.query({
       query: (id) => `general/user/${id}`,
       providesTags: ["User"],
@@ -33,11 +53,11 @@ export const api = createApi({
       providesTags: ["Customers"],
     }),
     getZohoAppRoleDetails: builder.query({
-      query: () => `client/zoho`,
+      query: () => `client/zohobigin`,
       providesTags: ["ZohoAppRoleDetails"],
     }),
     getZomatoAppRoleDetails: builder.query({
-      query: () => `client/zomato`,
+      query: () => `client/sharepoint`,
       providesTags: ["ZomatoAppRoleDetails"],
     }),
     getSwiggyAppRoleDetails: builder.query({
@@ -103,4 +123,9 @@ export const {
   useGetMetaAppRoleDetailsQuery,
   useGetSwiggyAppRoleDetailsQuery,
   useGetEmpDetailsQuery,
+  useGetAccessCertificationQuery,
+  useGetAccessReviewQuery,
+  useGetEntitlementDataQuery,
+  useGetLifecycleDataQuery,
+  useGetUserProvisioningDataQuery
 } = api;

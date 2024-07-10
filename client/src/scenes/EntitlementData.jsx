@@ -1,43 +1,46 @@
 import Header from "@/components/Header";
-import { useGetZomatoAppRoleDetailsQuery } from "@/state/api";
+import { useGetEntitlementDataQuery } from "@/state/api";
 import { Box, useTheme } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
 
-function ZomatoAppRoleDetails() {
+function EntitlementData() {
   const theme = useTheme();
-  const { data, isLoading } = useGetZomatoAppRoleDetailsQuery();
+  const { data, isLoading } = useGetEntitlementDataQuery();
 
   const columns = [
     {
-      field: "full_name",
-      headerName: "NAME",
+      field: "id",
+      headerName: "ID",
       flex: 1,
     },
     {
-      field: "email",
-      headerName: "Email",
+      field: "displayName",
+      headerName: "Name",
       flex: 0.5,
     },
     {
-      field: "role",
-      headerName: "Role",
+      field: "description",
+      headerName: "Description",
       flex: 0.5,
-      valueGetter: (params) => {
-        return params.row.role.name; 
-      },
-    },{
-      field: "profile",
-      headerName: "Profile",
+   },{
+      field: "isHidden",
+      headerName: "Hidden Flag",
       flex: 0.5,
-      valueGetter: (params) => {
-        return params.row.profile.name; 
-      },
     },
+    {
+        field: "createdDateTime",
+        headerName: "Created on",
+        flex: 0.5,
+     },{
+        field: "modifiedDateTime",
+        headerName: "Modified On",
+        flex: 0.5,
+      },
   ];
 
   return (
     <Box height="100%" maxHeight="90vh" p="1.5rem 2.5rem">
-      <Header title="Sharepoint Details" subtitle="List of Users" />
+      <Header title="Zomato Details" subtitle="List of Users" />
       <Box
         mt="40px"
         height="72vh"
@@ -77,4 +80,4 @@ function ZomatoAppRoleDetails() {
   );
 }
 
-export default ZomatoAppRoleDetails;
+export default EntitlementData;

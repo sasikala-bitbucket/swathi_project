@@ -1,0 +1,218 @@
+ [
+        {
+            "id": "1a6690d1-cdce-4aa3-a568-794fa6374a8e",
+            "displayName": "Solarwinds - User",
+            "description": "Solarwinds - User",
+            "isHidden": false,
+            "createdDateTime": "2024-06-21T04:33:26.38Z",
+            "modifiedDateTime": "2024-06-21T04:33:26.38Z"
+        },
+        {
+            "id": "dcc6ad3b-f136-460a-acc4-48985325e137",
+            "displayName": "Sharepoint - Account Supervisor",
+            "description": "Sharepoint - Account Supervisor",
+            "isHidden": false,
+            "createdDateTime": "2024-06-14T04:26:20.263Z",
+            "modifiedDateTime": "2024-06-14T04:26:20.263Z"
+        },
+        {
+            "id": "56ce9703-1acd-4452-87b2-701545815b7f",
+            "displayName": "Sharepoint - Marketing Admin Access",
+            "description": "Sharepoint - Marketing Admin Access",
+            "isHidden": false,
+            "createdDateTime": "2024-06-12T08:45:41.44Z",
+            "modifiedDateTime": "2024-06-12T08:45:41.44Z"
+        },
+        {
+            "id": "59fc3bcf-a37b-4b71-ba76-7cf99b97cc68",
+            "displayName": "Solarwind -Security Engineer",
+            "description": "Solarwind -Security Engineer",
+            "isHidden": false,
+            "createdDateTime": "2024-06-11T13:25:59.32Z",
+            "modifiedDateTime": "2024-06-11T13:25:59.32Z"
+        },
+        {
+            "id": "f2802305-6697-417c-bfec-1b579fc3d35e",
+            "displayName": "Solarwind -Requester",
+            "description": "This package will allo the user to Service desk application , and the user can request for all  device permission",
+            "isHidden": false,
+            "createdDateTime": "2024-06-11T13:18:46.967Z",
+            "modifiedDateTime": "2024-06-14T06:44:24.663Z"
+        },
+        {
+            "id": "cbb94880-dbb5-4632-84e7-b4138f249f95",
+            "displayName": "SolarWind-Admin",
+            "description": "This accesspcakage will assign all the admin right to solar wind -Service desk application",
+            "isHidden": false,
+            "createdDateTime": "2024-06-11T13:12:29.343Z",
+            "modifiedDateTime": "2024-06-14T06:45:40.377Z"
+        },
+        {
+            "id": "01f92394-acdb-4b97-bfa1-f67a81f189b9",
+            "displayName": "solarwind",
+            "description": "solarwind",
+            "isHidden": false,
+            "createdDateTime": "2024-06-09T14:01:57.913Z",
+            "modifiedDateTime": "2024-06-09T14:01:57.913Z"
+        },
+        {
+            "id": "60684366-fb9a-4099-959b-5f3e6bb32029",
+            "displayName": "DDA-Test-Incompactible",
+            "description": "testing incompactible feature",
+            "isHidden": false,
+            "createdDateTime": "2024-06-03T04:42:15.063Z",
+            "modifiedDateTime": "2024-06-03T04:42:15.063Z"
+        },
+        {
+            "id": "fd87eb9d-7aeb-42df-b054-b22f49a44e4a",
+            "displayName": "DDA-IT-AccessPackage",
+            "description": "This will provide acccess for IT Department",
+            "isHidden": false,
+            "createdDateTime": "2024-06-02T08:04:39.927Z",
+            "modifiedDateTime": "2024-06-02T08:04:39.927Z"
+        },
+        {
+            "id": "d32a82d9-8fd4-4379-8eab-3dcb25b1f2a2",
+            "displayName": "DDA-Marketting-Access-Package",
+            "description": "Accesspackage for marketing",
+            "isHidden": false,
+            "createdDateTime": "2024-06-02T08:00:01.663Z",
+            "modifiedDateTime": "2024-06-02T08:00:01.663Z"
+        },
+        {
+            "id": "5e1066c9-1892-4634-b697-361df705863b",
+            "displayName": "DDA-Sales-AccessPackage",
+            "description": "This package will assign the roles to  Sales group",
+            "isHidden": false,
+            "createdDateTime": "2024-06-02T07:10:44.147Z",
+            "modifiedDateTime": "2024-06-02T07:10:44.147Z"
+        },
+        {
+            "id": "0db4f85e-7b9c-4119-80e9-bf147eba3490",
+            "displayName": "Diez-AccessReview-AccessPackage",
+            "description": "This is a demo fof Accessreview for accesspackage",
+            "isHidden": false,
+            "createdDateTime": "2024-05-30T05:19:39.193Z",
+            "modifiedDateTime": "2024-05-30T05:19:39.193Z"
+        },
+        {
+            "id": "eccb0666-919f-4dda-a11d-0541082bbdda",
+            "displayName": "Dropbbox",
+            "description": "Dropbbox",
+            "isHidden": false,
+            "createdDateTime": "2024-05-24T03:49:34.35Z",
+            "modifiedDateTime": "2024-05-24T03:49:34.35Z"
+        },
+        {
+            "id": "3c8a6cb0-4ea8-483f-b57e-7228f2010128",
+            "displayName": "Guest User Access Package",
+            "description": "Guest User Access Package",
+            "isHidden": false,
+            "createdDateTime": "2024-05-23T12:50:58.147Z",
+            "modifiedDateTime": "2024-05-23T12:50:58.147Z"
+        },
+        {
+            "id": "5e23aa09-5e94-4e94-82c9-39d8c7dcce6d",
+            "displayName": "IGA Demo",
+            "description": "IGA Demo",
+            "isHidden": false,
+            "createdDateTime": "2024-04-22T07:31:39.077Z",
+            "modifiedDateTime": "2024-04-22T07:31:39.077Z"
+        },
+        {
+            "id": "11c6e4c7-943b-4e18-84f3-f1b74ce5f4ba",
+            "displayName": "IGA-Demo_Entitlements",
+            "description": "Demo Entitlement",
+            "isHidden": false,
+            "createdDateTime": "2024-03-12T11:50:52.497Z",
+            "modifiedDateTime": "2024-03-12T12:32:32.403Z"
+        },
+        {
+            "id": "16b3f8f4-cd8c-43bb-b46e-101d98c2d0b5",
+            "displayName": "access test2",
+            "description": "access test2",
+            "isHidden": false,
+            "createdDateTime": "2024-01-29T12:16:55.003Z",
+            "modifiedDateTime": "2024-01-29T12:16:55.003Z"
+        },
+        {
+            "id": "34a61cc7-cc61-44ac-8314-a8ecef9a1275",
+            "displayName": "access recertification",
+            "description": "access recertification",
+            "isHidden": false,
+            "createdDateTime": "2024-01-29T09:47:17.687Z",
+            "modifiedDateTime": "2024-01-29T09:59:55.057Z"
+        },
+        {
+            "id": "e2a3a35a-b77e-469b-a2f2-ca613db698fc",
+            "displayName": "IRR",
+            "description": "adssads",
+            "isHidden": false,
+            "createdDateTime": "2023-11-29T08:56:25.947Z",
+            "modifiedDateTime": "2023-11-29T08:56:25.947Z"
+        },
+        {
+            "id": "093f57c8-5445-4831-b8aa-259b85a769e5",
+            "displayName": "gggg",
+            "description": "aSXAd",
+            "isHidden": false,
+            "createdDateTime": "2023-11-29T08:44:54.403Z",
+            "modifiedDateTime": "2023-11-29T08:44:54.403Z"
+        },
+        {
+            "id": "299560e6-89ab-4e96-85ef-6dd39db967f6",
+            "displayName": "Sample demo package",
+            "description": "test tackage",
+            "isHidden": false,
+            "createdDateTime": "2023-11-29T08:40:21.123Z",
+            "modifiedDateTime": "2023-11-29T08:40:21.123Z"
+        },
+        {
+            "id": "b2333b91-ac18-4b87-9527-3bfa85a0bdfd",
+            "displayName": "sma-package",
+            "description": "ssd",
+            "isHidden": false,
+            "createdDateTime": "2023-11-29T08:07:40.273Z",
+            "modifiedDateTime": "2023-11-29T08:24:32.13Z"
+        },
+        {
+            "id": "068fd20d-6717-45e3-8a59-d50bba988e0f",
+            "displayName": "test",
+            "description": "hfgfgghj",
+            "isHidden": false,
+            "createdDateTime": "2023-11-29T07:48:05.763Z",
+            "modifiedDateTime": "2023-11-29T07:48:05.763Z"
+        },
+        {
+            "id": "25668d5b-aa06-49d6-9732-234e4ccc16bb",
+            "displayName": "dropboxrole",
+            "description": "eretet",
+            "isHidden": false,
+            "createdDateTime": "2023-11-14T14:04:47.51Z",
+            "modifiedDateTime": "2023-11-14T14:04:47.51Z"
+        },
+        {
+            "id": "8f6586d4-3ca2-461b-a0e4-b325c87581da",
+            "displayName": "Alfanar Demo Package ",
+            "description": "Alfanar Demo Package ",
+            "isHidden": false,
+            "createdDateTime": "2023-10-16T12:26:43.043Z",
+            "modifiedDateTime": "2023-10-16T12:26:43.043Z"
+        },
+        {
+            "id": "e0a7a79d-b69e-43c6-aaa9-96568ee61b72",
+            "displayName": "RLS-Girls Test",
+            "description": "TEst IGA-1",
+            "isHidden": false,
+            "createdDateTime": "2023-09-07T10:01:02.483Z",
+            "modifiedDateTime": "2023-09-07T10:01:02.483Z"
+        },
+        {
+            "id": "0a704185-0507-47cd-abb6-fc53a4762f7c",
+            "displayName": "RLS Test Boys-AP",
+            "description": "RLS Test Boys-AP",
+            "isHidden": false,
+            "createdDateTime": "2023-09-07T09:19:43.053Z",
+            "modifiedDateTime": "2023-09-07T09:19:43.053Z"
+        }
+    ]

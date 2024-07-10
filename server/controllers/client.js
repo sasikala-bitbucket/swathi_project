@@ -8,6 +8,10 @@ import User from "../models/User.js";
 import AppRoleDetails from "../models/AppRoleDetails.js";
 import EmpDetails from "../models/EmpDetails.js";
 import ZohoAppRoleDetails from "../models/ZohoAppRoleDetails.js";
+import AccessReviewData from "../models/AccessReviewData.js";
+import EntitlementData from "../models/EntitlementData.js";
+import LifecycleData from "../models/LifecycleData.js";
+import UserProvisioningData from "../models/UserProvisioningData.js";
 
 export const getProducts = async (req, res) => {
   try {
@@ -177,6 +181,65 @@ export const getGeography = async (req, res) => {
     );
 
     res.status(200).json(formattedLocations);
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: error.message });
+  }
+};
+
+export const getUserProvisioningData = async (req, res) => {
+  try {
+    
+    const zprDetails = await UserProvisioningData.find({ });
+    
+    res.status(200).json(zprDetails);
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: error.message });
+  }
+};
+
+export const getLifecycleData = async (req, res) => {
+  try {
+    const zprDetails = await LifecycleData.find({ });
+    res.status(200).json(zprDetails);
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: error.message });
+  }
+};
+
+export const getEntitlementData = async (req, res) => {
+
+  try {
+
+    const zprDetails = await EntitlementData.find({ });
+   
+    res.status(200).json(zprDetails);
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: error.message });
+  }
+};
+
+export const getAccessCertification = async (req, res) => {
+  try {
+    const zprDetails = await ZohoAppRoleDetails.find({ application: "Meta" });
+   
+    res.status(200).json(zprDetails);
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: error.message });
+  }
+};
+
+export const getAccessReview = async (req, res) => {
+  try {
+
+    //console.log("hi entered");
+    const zprDetails = await AccessReviewData.find({ });
+   // console.log(zprDetails);
+    res.status(200).json(zprDetails);
   } catch (error) {
     console.log(error);
     res.status(500).json({ message: error.message });

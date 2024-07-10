@@ -97,7 +97,7 @@ function Dashboard() {
       >
         <StatBox
           title="Employee Count"
-          value="ZOHO"
+          value="ZohoBigin"
           increase="Employees :-"
           description={data && data.zohoCount}
           onClick={handleStatBoxClick}
@@ -109,7 +109,7 @@ function Dashboard() {
         />
         <StatBox
           title="Employee Count"
-          value="ZOMATO"
+          value="Sharepoint"
           increase="Employees :-"
           description={data && data.zomatoCount}
           onClick={handleStatBoxClick}
@@ -119,33 +119,7 @@ function Dashboard() {
             />
           }
         />
-       
-        <StatBox
-          title="Employee Count"
-          value="SWIGGY"
-          increase="Employees :-"
-          description={data && data.swiggyCount}
-          onClick={handleStatBoxClick}
-          icon={
-            <PersonAdd
-              sx={{ color: theme.palette.secondary[300], fontSize: "26px" }}
-            />
-          }
-        />
-        <StatBox
-          title="Employee Count"
-          value="META"
-          increase="Employees :-"
-          description={data && data.metaCount}
-          onClick={handleStatBoxClick}
-          icon={
-            <PersonAdd
-              sx={{ color: theme.palette.secondary[300], fontSize: "26px" }}
-            />
-          }
-        />
-
-        
+          
       </Box>
     </Box>
   );

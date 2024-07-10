@@ -35,82 +35,45 @@ import profileImage from "@/assets/avatar.svg";
 
 const navItems = [
   {
-    text: "Dashboard",
-    icon: <HomeOutlined />,
+    text: "User Provisioning",
+    icon: <Groups2Outlined />,
   },
   {
-    text: "Applications",
-    icon: null,
+    text: "Lifecycle Management",
+    icon: <Groups2Outlined />,
+  },
+  {
+    text: "Entitlement Management",
+    icon: <Groups2Outlined />,
+  },
+  {
+    text: "Access Review",
+    icon: <Groups2Outlined />,
+  },
+  {
+    text: "Access Certification",
+    icon: <Groups2Outlined />,
   },
   // {
-  //   text: "Products",
-  //   icon: <ShoppingCartOutlined />,
+  //   text: "Zoho",
+  //   icon: <Groups2Outlined />,
   // },
   // {
-  //   text: "Customers",
+  //   text: "Swiggy",
+  //   icon: <Groups2Outlined />,
+  // },
+  // {
+  //   text: "Zomato",
+  //   icon: <Groups2Outlined />,
+  // },
+  // {
+  //   text: "Meta",
   //   icon: <Groups2Outlined />,
   // },
   {
-    text: "Zoho",
-    icon: <Groups2Outlined />,
-  },
-  {
-    text: "Swiggy",
-    icon: <Groups2Outlined />,
-  },
-  {
-    text: "Zomato",
-    icon: <Groups2Outlined />,
-  },
-  {
-    text: "Meta",
-    icon: <Groups2Outlined />,
-  },
-  {
     text: "EmpDetails",
     icon: <Groups2Outlined />,
-  },
-
-  // {
-  //   text: "Transactions",
-  //   icon: <ReceiptLongOutlined />,
-  // },
-  // {
-  //   text: "Geography",
-  //   icon: <PublicOutlined />,
-  // },
-  // {
-  //   text: "Sales",
-  //   icon: null,
-  // },
-  // {
-  //   text: "Overview",
-  //   icon: <PointOfSaleOutlined />,
-  // },
-  // {
-  //   text: "Daily",
-  //   icon: <TodayOutlined />,
-  // },
-  // {
-  //   text: "Monthly",
-  //   icon: <CalendarMonthOutlined />,
-  // },
-  // {
-  //   text: "Breakdown",
-  //   icon: <PieChartOutlined />,
-  // },
-  // {
-  //   text: "Management",
-  //   icon: null,
-  // },
-  // {
-  //   text: "Admin",
-  //   icon: <AdminPanelSettingsOutlined />,
-  // },
-  // {
-  //   text: "Performance",
-  //   icon: <TrendingUpOutlined />,
-  // },
+  }
 ];
 
 function Sidebar({
@@ -158,7 +121,7 @@ function Sidebar({
                   width="fit-content"
                 >
                   <Typography variant="h4" fontWeight="bold">
-                    MyDashboard
+                    Extra Identity Governance
                   </Typography>
                   {!isNonMobile && (
                     <IconButton
@@ -183,7 +146,7 @@ function Sidebar({
                     </Typography>
                   );
                 }
-                const lcText = text.toLowerCase();
+                const lcText = text.trim().toLowerCase().replace(/\s+/g, '');
 
                 return (
                   <ListItem key={text} disablePadding>

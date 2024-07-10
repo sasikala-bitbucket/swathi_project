@@ -1,0 +1,57 @@
+ [
+        {
+            "category": "joiner",
+            "description": "Configure new hire tasks for onboarding employees on their Create date",
+            "displayName": "Onboard new hire Employee on Createdate",
+            "isEnabled": true,
+            "isSchedulingEnabled": true,
+            "lastModifiedDateTime": "2024-06-14T06:18:23.4827415Z",
+            "createdDateTime": "2024-06-02T06:01:12.0330623Z",
+            "id": "1bb636f0-d83b-4fe1-94a3-7da534ed406b",
+            "version": 13
+        },
+        {
+            "category": "joiner",
+            "description": "Configure pre-hire tasks for onboarding employees 5 days before their Hire date",
+            "displayName": "Onboard 5 days before hiredate",
+            "isEnabled": true,
+            "isSchedulingEnabled": true,
+            "lastModifiedDateTime": "2024-06-11T10:24:09.8248287Z",
+            "createdDateTime": "2024-06-02T06:10:11.5089606Z",
+            "id": "518cb8b7-a6ca-46eb-86f4-d46a535e8e33",
+            "version": 3
+        },
+        {
+            "category": "leaver",
+            "description": "Configure offboarding tasks for employees after their last day of work",
+            "displayName": "Offboard an employee",
+            "isEnabled": true,
+            "isSchedulingEnabled": true,
+            "lastModifiedDateTime": "2024-06-11T10:22:35.5706545Z",
+            "createdDateTime": "2024-06-02T06:13:11.2918431Z",
+            "id": "5655d5a1-a6e7-4aed-a46a-9d7325ca949b",
+            "version": 6
+        },
+        {
+            "category": "mover",
+            "description": "Configure mover tasks for employees once their job profile changes",
+            "displayName": "Mover Sales to Marketing",
+            "isEnabled": true,
+            "isSchedulingEnabled": true,
+            "lastModifiedDateTime": "2024-06-14T06:26:01.2292233Z",
+            "createdDateTime": "2024-06-02T06:18:15.4152679Z",
+            "id": "68abcd46-ba32-4275-8edf-8e3ba89cf7d4",
+            "version": 8
+        },
+        {
+            "category": "joiner",
+            "description": "Configure new hire tasks for onboarding contactors on their first day",
+            "displayName": "Onboarding Contractors",
+            "isEnabled": true,
+            "isSchedulingEnabled": true,
+            "lastModifiedDateTime": "2024-06-14T07:24:44.0907063Z",
+            "createdDateTime": "2024-06-11T10:18:41.8152481Z",
+            "id": "508f82a6-cec8-4bd4-8c50-2d1f1a81fd7c",
+            "version": 5
+        }
+    ]

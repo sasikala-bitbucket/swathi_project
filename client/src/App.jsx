@@ -28,6 +28,11 @@ import Employees from "./scenes/EmpDetails";
 import MetaAppRoleDetails from "./scenes/MetaAppRoleDetails";
 import ZomatoAppRoleDetails from "./scenes/ZomatoAppRoleDetails";
 import SwiggyAppRoleDetails from "./scenes/SwiggyAppRoleDetails";
+import EntitlementData from "./scenes/EntitlementData";
+import LifeCycleManagement from "./scenes/LifecycleManagement";
+import AccessReview from "./scenes/AccessReview";
+import AccessCertification from "./scenes/AccessCertification";
+import UserProvisioning from "./scenes/UserProvisioningData";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -36,9 +41,9 @@ const router = createBrowserRouter(
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/products" element={<Products />} />
       <Route path="/customers" element={<Customers />} />
-      <Route path="/zoho" element={<ZohoAppRoleDetails/>} />
+      <Route path="/zohobigin" element={<ZohoAppRoleDetails/>} />
       <Route path="/swiggy" element={<SwiggyAppRoleDetails/>} />
-      <Route path="/zomato" element={<ZomatoAppRoleDetails/>} />
+      <Route path="/sharepoint" element={<ZomatoAppRoleDetails/>} />
       <Route path="/meta" element={<MetaAppRoleDetails/>} />
       <Route path="/empdetails" element={<Employees/>} />
       <Route path="/transactions" element={<Transactions />} />
@@ -49,6 +54,11 @@ const router = createBrowserRouter(
       <Route path="/breakdown" element={<Breakdown />} />
       <Route path="/admin" element={<Admin />} />
       <Route path="/performance" element={<Performance />} />
+      <Route path="/userprovisioning" element={<UserProvisioning />} />
+      <Route path="/lifecyclemanagement" element={<LifeCycleManagement />} />
+      <Route path="/entitlementmanagement" element={<EntitlementData />} />
+      <Route path="/accessreview" element={<AccessReview />} />
+      <Route path="/accesscertification" element={<AccessCertification />} />
     </Route>
   )
 );
