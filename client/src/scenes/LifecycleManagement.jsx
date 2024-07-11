@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Chart from 'chart.js/auto';
 import { useGetLifecycleDataQuery } from '@/state/api';
 import { Box, Typography } from '@mui/material';
+import Header from "@/components/Header";
 
 const LifeCycleManagement = () => {
   const { data, isLoading } = useGetLifecycleDataQuery();
@@ -64,8 +65,8 @@ const LifeCycleManagement = () => {
 
   return (
     <Box m="1.5rem" maxWidth="80%">
-      <Typography variant="h6" mb="1rem">Provisioning Action Distribution</Typography>
-      {isLoading ? (
+      <Header title="LifeCycle Management" />  
+       {isLoading ? (
         <Typography>Loading...</Typography>
       ) : (
         <canvas id="provisioning-action" /> // Chart canvas element

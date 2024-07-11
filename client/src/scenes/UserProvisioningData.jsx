@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Chart from 'chart.js/auto';
 import { useGetEntitlementDataQuery, useGetUserProvisioningDataQuery } from '@/state/api';
 import { Box, Typography } from '@mui/material';
+import Header from "@/components/Header";
 
 const UserProvisioning = () => {
   const { data, isLoading } = useGetUserProvisioningDataQuery();
@@ -64,7 +65,8 @@ const UserProvisioning = () => {
 
   return (
     <Box m="1.5rem" maxWidth="80%">
-      <Typography variant="h6" mb="1rem">Provisioning Action Distribution</Typography>
+      <Header title="User Provisioning" />
+      {/* <Typography variant="h6" mb="1rem">Provisioning Action Distribution</Typography> */}
       {isLoading ? (
         <Typography>Loading...</Typography>
       ) : (

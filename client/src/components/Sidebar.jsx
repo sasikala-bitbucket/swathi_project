@@ -194,7 +194,7 @@ function Sidebar({
             </List>
           </Box>
 
-          <Box>
+          {/* <Box>
             <Divider />
             <FlexBetween
               textTransform="none"
@@ -232,7 +232,7 @@ function Sidebar({
                 }}
               />
             </FlexBetween>
-          </Box>
+          </Box> */}
         </Drawer>
       )}
     </Box>

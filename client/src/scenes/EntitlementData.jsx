@@ -40,7 +40,7 @@ function EntitlementData() {
 
   return (
     <Box height="100%" maxHeight="90vh" p="1.5rem 2.5rem">
-      <Header title="Zomato Details" subtitle="List of Users" />
+      <Header title="Entitlement Management " subtitle="List of Users" />
       <Box
         mt="40px"
         height="72vh"
